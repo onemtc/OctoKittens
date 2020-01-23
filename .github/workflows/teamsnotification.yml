@@ -7,17 +7,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: run the github action
+      run: echo starting teams action
+      
     - name: Microsoft Teams (Generic)
       uses: aliencube/microsoft-teams-actions@v0.7.0
       with:
        # Incoming webhook URI to Microsoft Teams
        webhook_uri: https://outlook.office.com/webhook/d77729ed-f5bf-408b-a616-7512c8813cb9@32dc2feb-7716-4cf8-b1a6-f02cf37fd6bf/GitHubEnterprise/7b4b833436e24260b22951f52ac72c41/7767903c-3f88-4885-a458-cc19461e0dc5
        # Message title
-       title: Hello from a Action
+       title: 'Hello from a Action'
        # Message summary
-       summary: The action has executed and we are running...
+       summary: 'The action has executed and we are running...'
        # Message text
-       text: So a issue has been touched and now the action is running to send a message, coming next is addition of something into the message
+       text: 'So a issue has been touched and now the action is running to send a message, coming next is addition of something into the message'
        # Message theme color
        # theme_color: # optional, default is 
        # JSON array for message sections
