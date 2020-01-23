@@ -14,7 +14,7 @@ jobs:
       uses: aliencube/microsoft-teams-actions@v0.7.0
       with:
        # Incoming webhook URI to Microsoft Teams
-       webhook_uri: https://outlook.office.com/webhook/d77729ed-f5bf-408b-a616-7512c8813cb9@32dc2feb-7716-4cf8-b1a6-f02cf37fd6bf/GitHubEnterprise/7b4b833436e24260b22951f52ac72c41/7767903c-3f88-4885-a458-cc19461e0dc5
+       webhook_uri: https://outlook.office.com/webhook/d77729ed-f5bf-408b-a616-7512c8813cb9@32dc2feb-7716-4cf8-b1a6-f02cf37fd6bf/IncomingWebhook/6200bad0857e4e45b83f64854785bed2/7767903c-3f88-4885-a458-cc19461e0dc5
        # Message title
        title: 'Hello from a Action'
        # Message summary
